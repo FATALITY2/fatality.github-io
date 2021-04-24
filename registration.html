@@ -1,0 +1,125 @@
+f<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css"/> 
+        <link rel="icon" type="image/ico" href="img/favicon.ico">      
+        <title>Регистрация</title> 
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="img/главная.png" width="30" height="30" alt="загрузка...">
+                </div>
+                <div class="headerMain"> 
+                </div>
+                <div>
+                    <ul class = "hr">
+                        <li><a href="index.html" class="link"><big><strong>Главная</strong></a></big></li>
+                        
+                        <li><a href="registration.html" class="link"><big><strong>Туры по странам</strong></a></big></li>
+                        <li><a href="" class="link"><big>Наши контакты</big></a></li>
+                        <li><a href="" class="link"><big>Фотоальбомы</big></a></li>
+                        <li><a href="" class="link"><big>Об компании</big></a></li>  
+                        <input class="finderinput" type="text"name="finder" placeholder="Найти страну">
+                        <input class="finderinput2" type="text"name="finder" placeholder="Найти дату">                     
+                    </ul>     
+                </div>    
+            </div>
+        </header>
+        <div class="containerBody">
+            <ul class = "hr2">
+                        <li><big><a href="" class="link"><strong>Заполнение заявки на туры</strong></big></a></li>
+                        <li><big><a href="hotels.html" class="link"><strong>Отели</strong></a></big></li> 
+                        <li><big><a href="" class="link"><strong>Скидки для студентов</strong></a></big></li>                  
+            </ul> 
+        </div>
+        <div class="containerBody">
+            <div class="registration"> 
+                Заполнение заявки:
+            </div>
+            <div class="registrationElements">
+                <strong>                 
+                    <p>
+                        <input class="textinputregistration" type="text" name="email" placeholder="Введите почту">
+                    </p>
+                    <p>
+                        Введите пароль от вашего аккаунта
+                    </p>
+                    <p>
+                        <input class="textinputregistration" type="text" name="password" placeholder="Пароль">
+                    </p>
+                    <p>
+                        Количество людей
+                    </p>
+                    <p>
+                        <input class="textinputregistration" type="text" name="countHumans" placeholder="Введите количество людей">
+                    </p>
+                    <p>
+                        Количество номеров в номере
+                    </p>
+                    <p>
+                        <input class="textinputregistration" type="text" name="countNumbers" placeholder="1 2 3 4 5">
+                    </p>
+                    <p>
+                        Какие отели в приоритете
+                    </p>
+                    <p>
+                        <input class="wishesinputregistration" type="text" name="hotels" placeholder="">
+                    </p>
+                    <p>
+                        Выложите фотографию паспорта
+                    </p>                    
+                    <div class="btn-group">
+                    <button class="buttoninputLoad" type="submit">
+                        Загрузить
+                    </button>
+                    <button class="buttoninputCancel" type="submit">
+                            Отмена
+                    </button>
+                </div>
+                </strong>
+                <div>
+                 <form action="handler.php">
+                    <p><input type="checkbox" name="a" value="Детское кресло"> Детское кресло</p>
+                    <p><input type="checkbox" name="a" value="Нужно такси до отеля" checked> Нужно такси до отеля</p>
+                    <p><input type="checkbox" name="a" value="Завтрак, обед и ужин за шведским столом" checked> Завтрак, обед и ужин за шведским столом</p>
+                    <p><input type="checkbox" name="a" value="Отправить заявку" checked> Отправить заявку</p>
+                </form>
+                </div>
+                <div class="btn-group">
+                    <button class="buttoninputSubmit" type="submit">
+                            Submit
+                    </button>
+                </div>
+            </div>   
+        </div>
+        <div class="containerBody">
+            <div class="registration2"> 
+                Регистрация учетной записи
+            </div>
+            <div class="registrationElements2">
+                <strong>     
+                    <p>
+                        Придумайте логин для своего аккаунта
+                    </p>            
+                    <p>
+                        <input class="textinputregistration" type="text" name="login" placeholder="">
+                    </p>
+                    <p>
+                        Введите ваш никнейм(будет печататься на билете)
+                    </p>
+                    <p>
+                        <input class="textinputregistration" type="text" name="nickname" placeholder="">
+                    </p>
+                    <p>
+                        Придумайте пароль(он вам понадобится в анкете еще раз)
+                    </p>
+                    <p>
+                        <input class="textinputregistration" type="text" name="password" placeholder="">
+                    </p>           
+            </div>   
+        </div>         
+    </body>
+</html>
